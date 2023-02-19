@@ -10,3 +10,11 @@ Tickets:
         <br>
   <% end %>
 </div>
+Oldest Ticket: <%= @tickets.first.subject %>
+<br><br>
+Add Ticket to Department: 
+<%= form_with url: "/employees/#{@employee.id}", method: :patch, local: true do |form| %>
+  <%= form.label :ticket_id, "Ticket Id Number:" %><br>
+  <%= form.text_field :ticket_id %>
+  <%= form.submit "Submit" %>
+<% end %>
