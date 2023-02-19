@@ -41,6 +41,8 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'capybara'
   gem 'launchy'
+  gem 'net-http'
+  gem 'simplecov'
 end
 
 group :development do

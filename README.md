@@ -18,10 +18,10 @@ We are creating an application to track departments, employees and tickets.
 * Tickets have a subject and an age
 	* ex. subject: ‘printers broken’, age: 5
 
-* Departments have many Employees
-* Employees belong to a Department
+<!-- * Departments have many Employees -->
+<!-- * Employees belong to a Department -->
 * Employees have many Tickets
-* Tickets can belong to many Employees
+<!-- * Tickets can belong to many Employees -->
 
 ## Instructions
 
