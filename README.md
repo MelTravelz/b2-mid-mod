@@ -20,7 +20,7 @@ We are creating an application to track departments, employees and tickets.
 
 <!-- * Departments have many Employees -->
 <!-- * Employees belong to a Department -->
-* Employees have many Tickets
+<!-- * Employees have many Tickets -->
 <!-- * Tickets can belong to many Employees -->
 
 ## Instructions
@@ -50,7 +50,9 @@ Employee Show
 As a user,
 When I visit the Employee show page,
 I see the employee's name, department
+
 and a list of all of their tickets from oldest to youngest.
+
 I also see the oldest ticket assigned to the employee listed separately
 ```
 

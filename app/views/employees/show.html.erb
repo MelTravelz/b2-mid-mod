@@ -1,0 +1,12 @@
+<h1><%= @employee.name %> Page</h1>
+<br>
+Department: <%= @employee.department.name %>
+<br><br>
+Tickets: 
+<div id= "all_tks">
+  <% @tickets.each do |ticket| %>
+      <%= ticket.subject %>, 
+        Age: <%= ticket.age %>
+        <br>
+  <% end %>
+</div>
